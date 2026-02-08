@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tektur:wght@400..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1f1517;
+    color: #FFFF;
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Tektur;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #524f48;
+}
+
+.github {
+    color: #FFF2E7;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    background: #181012;
+}
+
+.hero {
+
+    max-width: 1120px;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+
+    padding: 0rem 2rem;
+    margin: auto;
+    overflow: clip;
+}
+
+.herocont {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.destaque {
+    font-family: Epilogue;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.marrom {
+    color: #A45A49;
+}
+
+.amarelo {
+    color: #E7A80E;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+hr {
+    border-color: #A45A49;
+}
+
+.herosub {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.heroimg {
+    max-width: 55%;
+    column-count: 4;
+    column-gap: 1.5rem;
+    margin: -1rem;
+}
+
+.heroimg > figure > img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.botaocont {
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    transform: translate("0, -50%");
+}
+
+button {
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #A45A49;
+    cursor: pointer;
+}
+
+.receitas {
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+
+.receitascabe {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.receitastitle {
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFF2E7;
+}
+
+.receitasub {
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #C7BAB3;
+}
+
+.receitascardcont {
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card {
+    background: #241A1C;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+    margin-top: 2rem;
+}
+
+
+.receitacabe {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.receitasdet {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.receitatitle {
+    font-family: Roboto;
+    font-weight: 700;
+    color: #FFF2E7;
+    font-size: 1.5rem;
+}
+
+.ava {
+    color: #756A67;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.dscr {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.autor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.autor > img {
+    border-radius: 20rem;
+    width: 1.5rem;
+}
+
+.autornome {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+footer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background: #23181A;
+}
+
+.copy {
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footerautor {
+    color: rgba(255, 242, 231, 0.50);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
